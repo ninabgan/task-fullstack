@@ -10,7 +10,7 @@ namespace Application.Services
     public interface IUserRoleService
     {
         List<UserRoleDto> GetUserRoles();
-        List<UserRoleDto> GetValidUserRoles();
+        List<UserRoleDto> GetValidUserRoles(int userId, int unitId, DateTime? date);
         UserRoleDto CreateUserRole(UserRoleDto userRoleDto);
         UserRoleDto UpdateUserRole(UserRoleDto userRoleDto);
     }

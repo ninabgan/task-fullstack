@@ -125,15 +125,21 @@ namespace Persistence.Data.DBWrapper
             return user;
         }
 
+        // Unit object
+
         public List<Unit> GetUnits()
         {
             var unitList = _userDbContext.Units.ToList();
             return unitList;
         }
 
+
+        // Role object
+
         public List<Role> GetRoles()
         {
-            throw new NotImplementedException();
+            var roleList = _userDbContext.Roles.ToList();
+            return roleList;
         }
     }
 

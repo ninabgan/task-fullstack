@@ -23,10 +23,14 @@ namespace Application.Services
 
         public UserDto CreateUser(UserDto userDto)
         {
+            
+            var userList = _dbWrapper.GetUsers();
+            var highestId = userList.MaxBy(x => x.Id).Id;
             var user = new User
             {
                 Name = userDto.Name,
-                Version = userDto.Version,
+                Version = 1,
+                Id = highestId + 1,
             };
 
             var response = _dbWrapper.CreateUser(user);

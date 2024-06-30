@@ -23,6 +23,12 @@ namespace API.Controllers
             return _userRoleService.GetUserRoles();
         }
 
+        //[HttpGet]
+        //public List<UserRoleDto> GetValidAllUserRoles(int userId, int unitId, DateTime? date)
+        //{
+        //    return _userRoleService.GetValidUserRoles(userId, unitId, date);
+        //}
+
         [HttpPost]
         public UserRoleDto CreateUserRole(UserRoleDto userRoleDto)
         {

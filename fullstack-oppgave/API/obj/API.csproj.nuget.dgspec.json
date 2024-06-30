@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\api\\API.csproj": {}
+    "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\api\\API.csproj": {
+    "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\api\\API.csproj",
+        "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\API\\API.csproj",
         "packagesPath": "C:\\Users\\nbach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\api\\obj\\",
+        "outputPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nbach\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Application\\Application.csproj"
+              "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Application\\Application.csproj"
               }
             }
           }
@@ -38,11 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,24 +78,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -109,18 +86,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Application\\Application.csproj": {
+    "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Application\\Application.csproj",
+        "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\nbach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Application\\obj\\",
+        "outputPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nbach\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -137,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Persistence\\Persistence.csproj"
+              "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -147,11 +124,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -174,37 +146,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj": {
+    "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\nbach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nbach\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -227,11 +185,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -248,37 +201,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Persistence\\Persistence.csproj",
+        "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\nbach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Persistence\\obj\\",
+        "outputPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nbach\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -295,8 +234,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj"
+              "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj"
               }
             }
           }
@@ -305,11 +244,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -352,26 +286,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

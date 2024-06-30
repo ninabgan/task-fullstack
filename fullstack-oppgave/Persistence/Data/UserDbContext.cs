@@ -14,6 +14,7 @@ namespace Persistence.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Unit> Units { get; set; }
         public DbSet<UserRole> UserRoles { get; set; }
+        public DbSet<Role> Roles { get; set; }
 
         public UserDbContext(DbContextOptions<UserDbContext> options) : base(options)
         { }
@@ -71,36 +72,48 @@ namespace Persistence.Data
                 {Id = 105, Version = 1, Name = "View statistics"},
             });
 
+            builder.Entity<UserRole>().HasData(new List<UserRole>
+            {
+                new UserRole { 
+                    Id = 1001, Version = 1, UserId = 1, UnitId = 11, RoleId = 101, ValidFrom = DateTime.Parse("2019-01-02 00:00:00"), ValidTo = DateTime.Parse("2019-12-31 23:59:59") },
 
+                new UserRole
+                {
+                    Id = 1002,
+                    Version = 2,
+                    UserId = 1,
+                    UnitId = 11,
+                    RoleId = 104,
+                    ValidFrom = DateTime.Parse("2019-01-02"),
+                    ValidTo = DateTime.Parse("2019-12-31 23:59:59")
+                },
+                new UserRole
+                {
+                    Id = 1003,
+                    Version = 1,
+                    UserId = 1,
+                    UnitId = 11,
+                    RoleId = 105,
+                    ValidFrom = DateTime.Parse("2019-06-11 00:00:00"),
+                    ValidTo = DateTime.Parse("2019-12-31 23:59:59")
+                },
+                new UserRole
+                {
+                    Id = 1004,
+                    Version = 2,
+                    UserId = 2,
+                    UnitId = 12,
+                    RoleId = 101,
+                    ValidFrom = DateTime.Parse("2020-01-28 00:00:00"),
+                    ValidTo = null
+                }
 
-
-
-
-
-            //    builder.Entity<UserRole>().HasData(new UserRole
-            //    { 
-            //        Id = 1001, 
-            //        Version = 1, 
-            //        UserId = 1, 
-            //        UnitId = 11, 
-            //        RoleId = 101, 
-            //        ValidFrom = DateTime.Parse("2019-01-02 00:00:00"), 
-            //        ValidTo = DateTime.Parse("2019-12-31 23:59:59") });
-            //}
-
-            //builder.Entity<UserRole>().HasData(new List<UserRole>
-            //{
-
-            //    { Id = 1001, Version = 1, UserId = 1, UnitId = 11, RoleId = 101, ValidFrom = DateTime.Parse("2019-01-02 00:00:00"), ValidTo = DateTime.Parse("2019-12-31 23:59:59") },
-            //    //{ Id = 1002, Version = 2, UserId = 1, UnitId = 11, RoleId = 104, ValidFrom = "2019-01-02", ValidTo = "2019-12-31 23:59:59" },
-            //    //{ Id = 1003, Version = 1, UserId = 1, UnitId = 11, RoleId = 105, ValidFrom = "2019-06-11 00:00:00", ValidTo = "2019-12-31 23:59:59" },
-            //    //{ Id = 1004, Version = 2, UserId = 2, UnitId = 12, RoleId = 101, ValidFrom = "2020-01-28", ValidTo = null },
-            //    //{ Id = 1005, Version = 1, UserId = 2, UnitId = 12, RoleId = 105, ValidFrom = "2020-01-28", ValidTo = null },
-            //    //{ Id = 1006, Version = 1, UserId = 2, UnitId = 14, RoleId = 101, ValidFrom = "2020-01-28", ValidTo = null },
-            //    //{ Id = 1007, Version = 1, UserId = 2, UnitId = 14, RoleId = 102, ValidFrom = "2020-01-28", ValidTo = null },
-            //    //{ Id = 1008, Version = 1, UserId = 1, UnitId = 11, RoleId = 101, ValidFrom = "2020-02-01 07:00:00", ValidTo = null },
-            //    //{ Id = 1009, Version = 1, UserId = 1, UnitId = 11, RoleId = 104, ValidFrom = "2020-02-01", ValidTo = null }
-            //};
+                //{ Id = 1005, Version = 1, UserId = 2, UnitId = 12, RoleId = 105, ValidFrom = "2020-01-28", ValidTo = null },
+                //{ Id = 1006, Version = 1, UserId = 2, UnitId = 14, RoleId = 101, ValidFrom = "2020-01-28", ValidTo = null },
+                //{ Id = 1007, Version = 1, UserId = 2, UnitId = 14, RoleId = 102, ValidFrom = "2020-01-28", ValidTo = null },
+                //{ Id = 1008, Version = 1, UserId = 1, UnitId = 11, RoleId = 101, ValidFrom = "2020-02-01 07:00:00", ValidTo = null },
+                //{ Id = 1009, Version = 1, UserId = 1, UnitId = 11, RoleId = 104, ValidFrom = "2020-02-01", ValidTo = null }
+            });
         }
     }
 }

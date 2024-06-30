@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kuCFXOqZc73kxqxxOt9x8tUSP0AMFDjvySYWSTrCoE0JtnI18lWIr1ZxqySRHXtk6y3uyGATLcQtEr6SOMBDCQ==",
+  "dgSpecHash": "1l8qywpUI7w9VR0aEEYBzC7rJcURFkdeKNaychKw8mqMG/ubXsLCGtq/0jr44a4icwsSxkFK3YZKhoHpTiD4Lw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\api\\API.csproj",
+  "projectFilePath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nbach\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\nbach\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -64,11 +64,7 @@
     "C:\\Users\\nbach\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\nbach\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\nbach\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\nbach\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\nbach\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\nbach\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\nbach\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
-    "C:\\Users\\nbach\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
+    "C:\\Users\\nbach\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

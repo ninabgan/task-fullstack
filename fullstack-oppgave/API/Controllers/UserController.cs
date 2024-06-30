@@ -16,7 +16,7 @@ namespace API.Controllers
             _userService = userService;
         }
 
-
+        // Dette kallet er kun for å mocke en respons å hente ut i frontend, ettersom databasen ikke er oppe
         [HttpGet]
         public List<UserDto> GetAllUsersMock()
         {
@@ -42,6 +42,8 @@ namespace API.Controllers
                 }
             };
         }
+
+        // Dette kallet skal egentlig brukes i stedet for det over
 
         // [HttpGet]
         // public List<UserDto> GetAllUsers()

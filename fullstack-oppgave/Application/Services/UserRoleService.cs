@@ -24,6 +24,8 @@ namespace Application.Services
 
         public UserRoleDto CreateUserRole(UserRoleDto userRoleDto)
         {
+            userRoleDto.Version = 1;
+
             if (userRoleDto.ValidTo < userRoleDto.ValidFrom || userRoleDto.ValidTo < DateTime.Now)
             {
                 throw new ArgumentException("Invalid dates"); // should prepare better error message
@@ -48,9 +50,15 @@ namespace Application.Services
 
         }
 
-        public List<UserRoleDto> GetValidUserRoles()
+        public List<UserRoleDto> GetValidUserRoles(int userId, int unitId, DateTime? date)
         {
-            throw new NotImplementedException();
+            date ??= DateTime.Now;
+
+            var list = _dbWrapper.GetUserRoles().Where(x => x.UserId == userId && x.UnitId == unitId && x.ValidTo >= date);
+
+            var userRoleDtos = _mapper.Map<List<UserRoleDto>>(list);
+
+            return userRoleDtos;
         }
 
         public UserRoleDto UpdateUserRole(UserRoleDto userRoleDto)

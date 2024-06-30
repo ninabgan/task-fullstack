@@ -14,9 +14,6 @@ namespace Persistence.Data
         public void Configure(EntityTypeBuilder<User> builder)
         {
             builder.ToTable("User");
-            builder.ToTable("Unit");
-            builder.ToTable("Role");
-            builder.ToTable("UserRole");
         }
     }
 }

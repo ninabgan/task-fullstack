@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj": {}
+    "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj": {
+    "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\nbach\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nbach\\source\\repos\\fullstack-task\\fullstack-oppgave\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\nbach\\source\\repos\\task-fullstack\\task-fullstack\\fullstack-oppgave\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nbach\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,26 +50,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.31, 6.0.31]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
